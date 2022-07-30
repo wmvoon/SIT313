@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #F1FBFE;
+        }
+
+        .signup-form {
+            text-align: center;
+        }
+
+        h2 {
+            margin: auto;
+            padding: 10px;
+            color: #00617D;
+            text-align: center;
+        }
+
+        hr {
+            max-width: 75%;
+            height: 2px;
+            background: #00617D;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .row {
+            padding: 10px;
+        }
+
+        .form-group {
+            padding: 10px;
+        }
+
+        .form-control {
+            padding: 10px;
+            border-color: #00617D;
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px 4px rgba(126, 122, 122, 0.06);
+        }
+
+        .btn {
+            padding: 10px;
+            border-radius: 10px;
+            border-color: #00617D;
+            background-color: #00617D;
+            color: #F1FBFE;
+        }
+    </style>
+    <title>Subscribe Deakin Newsletter</title>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 10px;">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Deakin_University_Logo_2017.svg/1200px-Deakin_University_Logo_2017.svg.png"
+            alt="DeakinLogo" height="200px" width="200px">
+    </div>
+
+    <div class="signup-form">
+        <form method="POST">
+
+            <h2>Subscribe to Deakin Newsletter</h2>
+            <hr>
+            <div class="form-group">
+                <div class="row">
+                    <input type="text" class="form-control" name="first_name" placeholder="First Name"
+                        required="required"><br>
+                </div>
+
+                <div class="row">
+                    <input type="text" class="form-control" name="last_name" placeholder="Last Name"
+                        required="required">
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Subscribe</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
