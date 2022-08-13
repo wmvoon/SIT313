@@ -1,0 +1,28 @@
+.SubEmail-div {
+    display: flex;
+    width: 100%;
+    margin:25px 0 25px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4FAFF;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 5px;
+  color: #61dafb;
+  font-size: large;
+  background-color: #2243A8;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:active{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+
+}
+
+.form-control {
+    width:30%;
+    padding: 10px 300px 10px 0;
+    margin: 0 10px 0 10px;
+}

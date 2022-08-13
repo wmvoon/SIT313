@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    background-color: #dddddd;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    min-height: 200px;
+    margin: 0 35px 0 35px;
+    text-align: left;
+  }
+  
+  .li-div {
+    display: block;
+    background-color: #dddddd;
+    text-decoration: none;
+  }
+
+  li h1 {
+    display: block;
+    background-color: #dddddd;
+    text-decoration: none;
+  }
+
+  a {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+  }
