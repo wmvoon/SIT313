@@ -1,0 +1,42 @@
+.button {
+    border-radius: 15px;
+    padding: 5px;
+    color: #61dafb;
+    font-size: large;
+    background-color: #2243A8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 10px;
+  }
+  
+  .button:active{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  
+  }
+  
+  .form-control {
+      width:30%;
+      padding: 10px 300px 10px 0;
+      margin: 20px;
+  }
+
+  .Form {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .center {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  td {
+    text-align: left;
+  }
