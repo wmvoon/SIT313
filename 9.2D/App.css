@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.center {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 15px;
+  color: #61dafb;
+  font-size: large;
+  background-color: #2243A8;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:active{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
